@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "yarn build && vite preview",
+    "lint:format": "prettier  --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" ",
+    "lint": "yarn lint:format && eslint . --ext .js,.jsx,.ts,.tsx,.css,.md,.json --fix"
   },
   "dependencies": {
     "react": "^18.0.0",
@@ -16,6 +18,8 @@
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
     "typescript": "^4.6.3",
-    "vite": "^2.9.9"
-  }
+    "vite": "^2.9.9",
+    "vite-tsconfig-paths": "^3.4.1"
+  },
+  "pre-commit": "lint"
 }
