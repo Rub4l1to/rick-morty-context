@@ -21,6 +21,7 @@ export interface Fonts {
 export interface FontTypes {
   regular: string;
   medium?: string;
+  semibold?: string;
   bold: string;
   extrabold?: string;
 }

@@ -28,8 +28,8 @@ export const FontsFaces = css`
     src: url(${Dosis.Medium}) format('truetype');
   }
   @font-face {
-    font-family: 'Dosis-Bold';
-    src: url(${Dosis.Bold}) format('truetype');
+    font-family: 'Dosis-Semibold';
+    src: url(${Dosis.Semibold}) format('truetype');
   }
   @font-face {
     font-family: 'Dosis-Black';

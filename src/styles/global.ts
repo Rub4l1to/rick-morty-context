@@ -37,4 +37,7 @@ export const GlobalStyles = createGlobalStyle`
     user-select: text;
     outline: 0;
   }
+  body{
+    background-color: ${({ theme: { colors } }) => colors.bgPrimary};
+  }
 `;

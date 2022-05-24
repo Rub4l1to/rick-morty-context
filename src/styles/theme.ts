@@ -12,8 +12,8 @@ export const Theme: DefaultTheme = {
     primary: {
       regular: 'Dosis-Regular',
       medium: 'Dosis-Medium',
+      semibold: 'Dosis-SemiBold',
       bold: 'Dosis-Bold',
-      extrabold: 'Dosis-Black',
     },
     secondary: {
       regular: 'Roboto-Regular',
