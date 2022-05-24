@@ -10,10 +10,12 @@ export interface Colors {
   secondary: string;
   third: string;
   fourth: string;
+  bgPrimary: string;
 }
 
 export interface Fonts {
   primary: FontTypes;
+  secondary: FontTypes;
 }
 
 export interface FontTypes {
