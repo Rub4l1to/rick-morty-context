@@ -6,13 +6,13 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyles, Theme } from 'styles';
 
 //* Screens
-import Home from 'screens/Home';
+import { HomePage } from 'screens';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <ThemeProvider theme={Theme}>
       <GlobalStyles />
-      <Home />
+      <HomePage />
     </ThemeProvider>
   </React.StrictMode>,
 );
